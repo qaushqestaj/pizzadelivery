@@ -1,8 +1,8 @@
-# React + Vite
+Choose a pizza, add it to the cart, and prioritize your order. Fast delivery to your location.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I am building the frontend part of this project using React and its libraries.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Routing: React Router
+Styling: Tailwindcss
+Remote State Management: React Router (Though, I prefer React Query)
+UI State Management: Redux
