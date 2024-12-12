@@ -8,3 +8,5 @@ Routing: React Router <br />
 Styling: Tailwindcss <br />
 Remote State Management: React Router (Though, I prefer React Query) <br />
 UI State Management: Redux
+
+Preview link: https://react-pizzadelivery.netlify.app/
