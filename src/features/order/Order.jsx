@@ -16,6 +16,8 @@ function Order() {
 
   const fetcher = useFetcher();
 
+  const test = {};
+
   useEffect(
     function () {
       if (!fetcher.data && fetcher.state === 'idle') fetcher.load('/menu');
