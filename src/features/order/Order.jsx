@@ -16,7 +16,7 @@ function Order() {
 
   const fetcher = useFetcher();
 
-  const test = [];
+  const test = {};
 
   useEffect(
     function () {
