@@ -34,6 +34,7 @@ const initialState = {
   position: {},
   address: '',
   error: '',
+  message: '',
 };
 
 const userSlice = createSlice({
