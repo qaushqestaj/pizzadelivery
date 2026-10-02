@@ -16,7 +16,9 @@ function Menu() {
 
 export async function loader() {
   const menu = await getMenu();
-  return menu;
+  return menu.map((pizza) =>
+    pizza.name === 'Romana' ? { ...pizza, soldOut: true } : pizza
+  );
 }
 
 export default Menu;
